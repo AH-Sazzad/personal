@@ -1,0 +1,38 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  margin: 0px auto;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+header ul {
+  list-style: none;
+  width: 40%;
+}
+header ul li {
+  float: left;
+}
+header ul li a {
+  padding-left: 50px;
+  font-size: 20px;
+}
+header ul li a:hover {
+  color: #8e21e7;
+}
+header h1 a {
+  color: #000000;
+}
+header h1 a span {
+  color: #8e21e7;
+}

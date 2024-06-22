@@ -171,6 +171,9 @@ body {
   background-color: #adbfc622;
   padding: 30px 0px;
   margin-bottom: 30px;
+  background-image: url(../img/header_bg.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
 }
 .expariance h1 {
   margin-left: 100px;
@@ -187,12 +190,16 @@ body {
   padding: 0.5% 2%;
   margin-right: 3%;
   box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.402);
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan) 30;
 }
 .item2 {
   width: 40%;
   padding: 0.5% 2%;
   margin-left: 3%;
   box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.408);
+  border-left: 7px solid;
+  border-image: linear-gradient(#f6b73c, #4d9f0c) 30;
 }
 .item1 h2 {
   font-size: 40px;
@@ -200,11 +207,21 @@ body {
 .item2 h2 {
   font-size: 40px;
 }
-.item1 h4 {
-  font-size: 25px;
+.item1 #full {
+  font-size: 20px;
   color: #63bdfc;
 }
-.item2 h5 {
-  font-size: 25px;
+.item2 #full {
+  font-size: 20px;
   color: #63bdfc;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 10px 0px;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(34, 34, 34, 0.416);
 }

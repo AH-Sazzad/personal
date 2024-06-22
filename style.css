@@ -51,9 +51,13 @@ body {
 .top-banner .container .info h4 a span {
   color: #8790fd;
   background-color: #8791fd3e;
-  padding: 2px;
+  padding: 3px 6px;
   border-radius: 5px;
   font-size: 18px;
+}
+.top-banner .container .info h4 a span:hover {
+  color: #ffffff;
+  background-color: #8791fd;
 }
 .top-banner .container .info p {
   color: #78909a;
@@ -159,5 +163,5 @@ body {
   box-shadow: 5px 17px 20px #8791fd51;
   transition-duration: 0.2s;
   transition-delay: 0.1s;
-  transition-timing-function: all ease 0.1s;
+  transition-timing-function: all ease-out 0.1s;
 }

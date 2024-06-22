@@ -36,3 +36,54 @@ header h1 a {
 header h1 a span {
   color: #8e21e7;
 }
+.banner1 {
+  background-color: #ffc49a8d;
+  width: 100%;
+  height: 767px;
+  display: flex;
+  align-items: center;
+}
+.banner1 .info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-left: 15px;
+  width: 40%;
+  padding: 0% 5%;
+}
+.banner1 .hreo {
+  right: 0;
+  margin-bottom: 12px;
+  margin-top: 30px;
+  padding-left: 100px;
+}
+.banner1 .info h3 {
+  font-size: 25px;
+  margin-bottom: -22px;
+}
+.banner1 .info h3 span {
+  color: #8e21e7;
+}
+.banner1 .info p {
+  font-size: 20px;
+  margin-top: -22px;
+}
+.banner1 .info h1 {
+  font-size: 35px;
+  margin: 10px 0px;
+}
+.banner1 .info h1 span {
+  color: #8e21e7;
+}
+.banner1 .info .cv {
+  background: linear-gradient(90deg, #ffc49a, #ffebdc);
+  padding: 10px 15px;
+  border-radius: 12px;
+  color: black;
+  font-weight: 900;
+  font-size: 20px;
+}
+.banner1 .info .cv :hover {
+  background-color: red;
+}
